@@ -1,0 +1,4 @@
+
+<title></title> <script src="Scripts/jquery-3.3.1.js"> <script type="text/javascript"> $(document).ready(functiion(){ ver empName = $('#ulEmp'); $('#btnGen').click(function () { $ajax({ type: 'GET', url: 'api/GetMethodDemo', dataType: 'json', success: function (redData) { empName.empty(); $.each(retData, function (iIndex, val) { var fullName = val.EmpNo + ' ' + val.empName empNo.append('
+' + No + '
+'); }); } }); }); $('btnClear').click(function () { $('#ulEmp').empty(); }) }); </script>
